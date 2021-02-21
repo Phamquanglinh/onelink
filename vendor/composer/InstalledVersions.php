@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '955d514251dbc4197edefb55cf0d432cdf74b624',
+    'reference' => '90f6cfbb30b579ff4dea0a6dadda1216124faa6d',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -52,6 +52,33 @@ private static $installed = array (
       ),
       'reference' => '8d8f88b3b3830916be94292c1fbce84433efb1aa',
     ),
+    'aws/aws-sdk-php' => 
+    array (
+      'pretty_version' => '3.173.13',
+      'version' => '3.173.13.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'b8ef72b8b335a1bb004505784f1a03ff5b37928f',
+    ),
+    'barryvdh/elfinder-flysystem-driver' => 
+    array (
+      'pretty_version' => 'v0.3.0',
+      'version' => '0.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5a6c893dfb97e9848d7b1e5e990e943af7bc3550',
+    ),
+    'barryvdh/laravel-elfinder' => 
+    array (
+      'pretty_version' => 'v0.4.7',
+      'version' => '0.4.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f2a5f7d2b69b7c2f5419b0b02874b91b6d480c6c',
+    ),
     'brick/math' => 
     array (
       'pretty_version' => '0.9.2',
@@ -60,6 +87,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'dff976c2f3487d42c1db75a3b180e2b9f0e72ce0',
+    ),
+    'ckfinder/ckfinder-laravel-package' => 
+    array (
+      'pretty_version' => 'v3.5.1.6',
+      'version' => '3.5.1.6',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e6afc4b4075cc53956c3ee38c98f6a16650b632b',
     ),
     'composer/installers' => 
     array (
@@ -200,6 +236,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '01de0fe5f71c70d1930ee9a80385f9cc28e0f63a',
+    ),
+    'graham-campbell/guzzle-factory' => 
+    array (
+      'pretty_version' => 'v4.2.0',
+      'version' => '4.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1f4d65962051284c4ecf6e29b710178f5d7ce75a',
     ),
     'guzzlehttp/guzzle' => 
     array (
@@ -458,6 +503,15 @@ private static $installed = array (
       ),
       'reference' => 'c784c38346ef3f9f6be368e4a1dbd9ef3c038c43',
     ),
+    'intervention/image' => 
+    array (
+      'pretty_version' => '2.5.1',
+      'version' => '2.5.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'abbf18d5ab8367f96b3205ca3c89fb2fa598c69e',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
@@ -481,7 +535,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '955d514251dbc4197edefb55cf0d432cdf74b624',
+      'reference' => '90f6cfbb30b579ff4dea0a6dadda1216124faa6d',
     ),
     'laravel/tinker' => 
     array (
@@ -519,6 +573,24 @@ private static $installed = array (
       ),
       'reference' => '9be3b16c877d477357c015cec057548cf9b2a14a',
     ),
+    'league/flysystem-aws-s3-v3' => 
+    array (
+      'pretty_version' => '1.0.29',
+      'version' => '1.0.29.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4e25cc0582a36a786c31115e419c6e40498f6972',
+    ),
+    'league/flysystem-cached-adapter' => 
+    array (
+      'pretty_version' => '1.1.0',
+      'version' => '1.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd1925efb2207ac4be3ad0c40b8277175f99ffaff',
+    ),
     'league/mime-type-detection' => 
     array (
       'pretty_version' => '1.7.0',
@@ -545,6 +617,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '1cb1cde8e8dd0f70cc0fe51354a59acad9302084',
+    ),
+    'mtdowling/jmespath.php' => 
+    array (
+      'pretty_version' => '2.6.0',
+      'version' => '2.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '42dae2cbd13154083ca6d70099692fef8ca84bfb',
     ),
     'myclabs/deep-copy' => 
     array (
@@ -711,6 +792,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c25f79895d27b6ecd5abfa63de1606b786a461a3',
+    ),
+    'pimple/pimple' => 
+    array (
+      'pretty_version' => 'v3.3.1',
+      'version' => '3.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '21e45061c3429b1e06233475cc0e1f6fc774d5b0',
+    ),
+    'psr/cache' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd11b50ad223250cf17b86e38383413f5a6764bf8',
     ),
     'psr/container' => 
     array (
@@ -975,6 +1074,33 @@ private static $installed = array (
       array (
         0 => '*',
       ),
+    ),
+    'spatie/dropbox-api' => 
+    array (
+      'pretty_version' => '1.17.0',
+      'version' => '1.17.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'fbd05de96ce7167b45a148e027a2cdd9ff3cf4a8',
+    ),
+    'spatie/flysystem-dropbox' => 
+    array (
+      'pretty_version' => '1.2.3',
+      'version' => '1.2.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8b6b072f217343b875316ca6a4203dd59f04207a',
+    ),
+    'studio-42/elfinder' => 
+    array (
+      'pretty_version' => '2.1.57',
+      'version' => '2.1.57.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '087524b1d7a4d76cfd848dee2093cd8daf987f78',
     ),
     'swiftmailer/swiftmailer' => 
     array (

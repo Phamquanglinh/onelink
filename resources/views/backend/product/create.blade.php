@@ -6,6 +6,7 @@
     $category= \App\Category::get();
     ?>
     <script src="//cdn.ckeditor.com/4.16.0/full/ckeditor.js"></script>
+    @include('ckfinder::setup')
     <div class="container-fluid">
         <form action="{{route('product.store')}}" method="post">
             @method('POST')
@@ -31,8 +32,10 @@
             <button type="submit" class="btn btn-success">Cập nhật</button>
         </form>
     </div>
+
     <script>
-        CKEDITOR.replace( 'editor' );
+        var editor = CKEDITOR.replace( 'editor' );
+        CKFinder.setupCKEditor( editor, null, { type: 'Files' } );
         function calDiscout(){
             price=parseInt(document.getElementById('price').value);
             old=parseInt(document.getElementById('old').value);
