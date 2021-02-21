@@ -19,9 +19,10 @@
                         Danh mục
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Đồ ăn</a>
-                        <a class="dropdown-item" href="#">Mỹ phẩm</a>
-                        <a class="dropdown-item" href="#">Bla Bla</a>
+                        <?php $category=\App\Category::get(); ?>
+                        @foreach($category as $item)
+                            <a class="dropdown-item" href="{{route('category',['id'=>$item->id])}}">{{$item->category_name}}</a>
+                        @endforeach
                     </div>
                 </li>
             </ul>
